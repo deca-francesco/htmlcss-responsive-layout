@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --gia-primary: #ff9614;
+    --gia-secondary: #7c69a4;
+    --gia-light: white;
+    --gia-bg-light: #f6f5f3;
+}
+
+body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+    background-color: var(--gia-bg-light);
+}
+
 /* #endregion Common */
 
 /* #region Debug */
@@ -15,11 +27,23 @@
 /* #endregion Debug */
 
 /* #region Utilities */
-
+.container {
+    width: 95%;
+    margin: auto;
+}
 /* #endregion Utilities */
 
 
 /* #region Header */
+header {
+    background-color: var(--gia-light);
+    text-align: center;
+
+    h1 {
+        font-family: 'Nerko One', cursive;
+        color: var(--gia-primary);
+    }
+}
 
 /* #endregion Header */
 
@@ -30,3 +54,9 @@
 /* #region Footer */
 
 /* #endregion Footer */
+
+
+/* #region Media Query */
+
+
+/* #endregion Media Query */
