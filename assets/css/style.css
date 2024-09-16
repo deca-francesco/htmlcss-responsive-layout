@@ -10,6 +10,7 @@
     --gia-secondary: #7c69a4;
     --gia-light: white;
     --gia-bg-light: #f6f5f3;
+    --gia-text-light: #acb3c4;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
 
 /* #region Utilities */
 .container {
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 /* #endregion Utilities */
@@ -38,6 +39,7 @@ body {
 header {
     background-color: var(--gia-light);
     text-align: center;
+    padding: 0.5rem;
 
     h1 {
         font-family: 'Nerko One', cursive;
@@ -48,7 +50,25 @@ header {
 /* #endregion Header */
 
 /* #region Main */
+main {
 
+    section#video {
+        h6 {
+            color: var(--gia-text-light);
+            font-weight: 500;
+        }
+
+        h2 {
+            color: var(--gia-secondary);
+        }
+
+        iframe {
+            max-width: 100%;
+        }
+
+    }
+
+}
 /* #endregion Main */
 
 /* #region Footer */
@@ -57,6 +77,13 @@ header {
 
 
 /* #region Media Query */
+@media screen and (min-width: 768px) {
+    header {
+        text-align: left;
+    }
+
+    
 
 
+}
 /* #endregion Media Query */
