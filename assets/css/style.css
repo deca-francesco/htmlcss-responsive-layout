@@ -203,9 +203,8 @@ footer {
     background-color: var(--gia-secondary);
     color: var(--gia-light);
     font-size: 0.6rem;
-    flex-wrap: wrap;
+    text-align: center;
     padding: 1rem;
-    justify-content: center;
 
     h3 {
         padding: 0.5rem 0;
