@@ -22,6 +22,8 @@ img {
     max-width: 100%;
     display: block;
 }
+
+
 /* #endregion Common */
 
 /* #region Debug */
@@ -187,7 +189,7 @@ main {
         .divider {
             background-color: var(--gia-primary);
             height: 3px;
-            width: 25%;
+            width: 6rem;
             margin: 0.5rem 0 1rem;
         }
 
